@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">DotAndLine</string>
-    <string name="app_name_to_show">Dot and Line</string>
+    <string name="app_name">Home Chef</string>
+    <string name="app_name_to_show">Home Chef</string>
+
+    <string name="welcome">Welcome to \nHome Chef</string>
 
     <string name="title_activity_register">Register</string>
     <string name="dummy_button">Dummy Button</string>

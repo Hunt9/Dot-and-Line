@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="Access \n 5000+ Engaging Videos"
+        android:text="Get Hands On \n 500+ Exotic Foods"
         android:textAlignment="center"
         android:textColor="@color/purple"
         android:textSize="20dp" />
