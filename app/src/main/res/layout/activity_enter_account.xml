@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraints"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Account ID"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/AccountID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Title"
+        android:backgroundTint="@color/purple"
+        android:textColor="@color/purple"
+        android:hint="XXXXXXXXXX"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:id="@+id/Verify"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        android:text="Verify"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

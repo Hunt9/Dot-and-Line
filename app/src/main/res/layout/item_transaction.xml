@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/TransactionID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:layout_margin="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Currency Type"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/CurrencyType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:layout_margin="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction Type"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/TransactionType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:layout_margin="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:layout_margin="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Processed At"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/ProcessedAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:layout_margin="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:layout_margin="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

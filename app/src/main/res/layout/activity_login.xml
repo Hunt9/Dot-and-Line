@@ -44,14 +44,14 @@
 
 
     <TextView
-        android:id="@+id/TVPhone"
+        android:id="@+id/TVEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Great"
         android:layout_marginStart="10dp"
         android:layout_marginTop="140dp"
         android:layout_marginEnd="8dp"
-        android:text="Phone Number"
+        android:text="Email"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -62,15 +62,15 @@
         android:id="@+id/Phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/TVPhone"
+        android:layout_below="@id/TVEmail"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:backgroundTint="@color/purple"
-        android:hint="923XXXXXXXXX"
+        android:hint="someone@example.com"
         android:inputType="phone"
         android:textColor="@color/purple"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TVPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/TVEmail" />
 
 
     <TextView

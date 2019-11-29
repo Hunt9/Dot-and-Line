@@ -1,11 +1,13 @@
 <resources>
-    <string name="app_name">Home Chef</string>
-    <string name="app_name_to_show">Home Chef</string>
+    <string name="app_name">Digital Bank</string>
+    <string name="app_name_to_show">Digital Bank</string>
 
-    <string name="welcome">Welcome to \nHome Chef</string>
+    <string name="welcome">Welcome to \nDigital Bank</string>
 
     <string name="title_activity_register">Register</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="app_salt">bca2c785b14f79b3d5ec0d5db2f95d4dc385ffbb1a023e089625v987bd41a555</string>
 
 </resources>

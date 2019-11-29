@@ -15,6 +15,7 @@ import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
 import com.androidnetworking.interfaces.ParsedRequestListener;
+import com.learn.dotandline.Helper.AppHelper;
 import com.learn.dotandline.Model.Login;
 
 import org.json.JSONObject;
@@ -56,11 +57,12 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    private void signIn(String phoneNumber, String password) {
+    private void signIn(String email, String password) {
 
-        AndroidNetworking.post("http://qa.homechef.pk/api/v1/login")
-                .addBodyParameter("mobile", phoneNumber)
-                .addBodyParameter("password", password)
+        AndroidNetworking.get(AppHelper.Login)
+                .addQueryParameter("Email", email)
+                .addQueryParameter("Password", password)
+                .addQueryParameter("Signature", AppHelper.getSignature(email,password))
                 .setTag("test")
                 .setPriority(Priority.MEDIUM)
                 .build()
@@ -73,7 +75,7 @@ public class LoginActivity extends AppCompatActivity {
                             if (response.getToken()!=null)
                             {
                                 Toast.makeText(LoginActivity.this,"Login Successfull" , Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(LoginActivity.this,WelcomeActivity.class));
+                                startActivity(new Intent(LoginActivity.this,TransactionActivity.class));
                                 finish();
                             }else {
                                 Toast.makeText(LoginActivity.this,"Invalid Credentials" , Toast.LENGTH_SHORT).show();
